@@ -136,6 +136,12 @@ endif
 PRODUCT_PACKAGES += \
     LineageSettingsProvider
 
+# Charger
+PRODUCT_PACKAGES += \
+    charger_res_images \
+    product_charger_res_images \
+    product_charger_res_images_vendor
+
 # Config
 PRODUCT_PACKAGES += \
     SimpleDeviceConfig \
