@@ -169,11 +169,6 @@
         <!-- Globally enable the new photo picker -->
         <item>storage_native_boot/take_over_get_content=true</item>
 
-        <!-- Machine learning back gesture (requires TensorFlow model) -->
-        <item>systemui/use_back_gesture_ml_model=true</item>
-        <item>systemui/back_gesture_ml_model_name=backgesture</item>
-        <item>systemui/back_gesture_ml_model_threshold=0.8</item>
-
         <!-- USAP Pool -->
         <item>runtime_native/usap_pool_enabled=true</item>
         <item>runtime_native/usap_pool_refill_delay_ms=3000</item>
