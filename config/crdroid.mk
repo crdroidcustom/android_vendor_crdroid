@@ -63,14 +63,7 @@ PRODUCT_PACKAGES += \
     BatteryStatsViewer \
     GameSpace \
     LMOFreeform \
-    LMOFreeformSidebar \
-    OmniJaws \
-    OmniStyle
-
-ifneq ($(TARGET_DISABLE_MATLOG),true)
-PRODUCT_PACKAGES += \
-    MatLog
-endif
+    LMOFreeformSidebar
 
 ifneq ($(TARGET_FACE_UNLOCK_SUPPORTED),false)
 PRODUCT_PACKAGES += \
@@ -84,10 +77,5 @@ PRODUCT_COPY_FILES += \
 endif
 
 # DeviceAsWebcam
-ifeq ($(TARGET_BUILD_DEVICE_AS_WEBCAM), true)
-    PRODUCT_PACKAGES += \
-        DeviceAsWebcam
-
-    PRODUCT_VENDOR_PROPERTIES += \
-        ro.usb.uvc.enabled=true
-endif
+PRODUCT_PACKAGES += \
+    DeviceAsWebcam
