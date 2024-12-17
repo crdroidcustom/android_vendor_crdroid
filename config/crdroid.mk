@@ -54,8 +54,6 @@ PRODUCT_PACKAGES += \
     GameSpace \
     LMOFreeform \
     LMOFreeformSidebar \
-    MatLog \
-    OmniJaws \
     OmniStyle
 
 ifneq ($(TARGET_FACE_UNLOCK_SUPPORTED),false)
