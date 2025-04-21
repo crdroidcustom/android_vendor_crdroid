@@ -94,12 +94,14 @@ ifneq ($(TARGET_DISABLE_LINEAGE_SDK), true)
 include vendor/lineage/config/lineage_sdk_common.mk
 endif
 
-# Gboard side padding
+# Gboard paddings
 PRODUCT_PRODUCT_PROPERTIES += \
     ro.com.google.ime.kb_pad_port_l=4 \
     ro.com.google.ime.kb_pad_port_r=4 \
     ro.com.google.ime.kb_pad_land_l=64 \
-    ro.com.google.ime.kb_pad_land_r=64
+    ro.com.google.ime.kb_pad_land_r=64 \
+    ro.com.google.ime.kb_pad_port_b=14 \
+    ro.com.google.ime.kb_pad_land_b=20
 
 # Do not include art debug targets
 PRODUCT_ART_TARGET_INCLUDE_DEBUG_BUILD := false
