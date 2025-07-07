@@ -681,4 +681,6 @@
 
     <!-- Name of a font family to use as regular font. For theming purpose. -->
     <string name="config_regularFontFamily" translatable="false">google-sans</string>
+
+    <dimen name="config_viewConfigurationTouchSlop">6dp</dimen>
 </resources>
