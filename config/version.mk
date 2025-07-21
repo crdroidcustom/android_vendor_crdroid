@@ -11,7 +11,7 @@ CUSTOM_BUILD_DATETIME := $(shell date +%s)
 CUSTOM_BUILD_DATE := $(shell date -d @$(CUSTOM_BUILD_DATETIME) +"%Y%m%d-%H%M%S")
 
 # Increase CR Version with each major release.
-CR_VERSION := 11.10
+CR_VERSION := 11.10-FINAL
 
 # Internal version
 LINEAGE_VERSION := crDroid-CUSTOM-v$(CR_VERSION)-$(CUSTOM_EDITION)-$(CUSTOM_BUILD_DATE)
